@@ -1,0 +1,11 @@
+Dise�o de patrones
+Don't call us, we call you
+concepto:
+Este principio trata eventos, mas especificamente, eventos provocados por alguna accion realizada en un objeto diferente.
+Lo que se trata con este principio es que el interesado (objeto que reaccionara), no deberia estar en constante revision del cambio.
+De esta forma se crea una relacion subscritor-publicador.
+Patrones:
+El patron que nace a partir de este principio es el patron observer(ejemplo del cual se puede encontrar mas abajo).
+Importancia:
+En caso de no tener en cuenta este patron, se aumentara innecesariamente el tiempo de ejecucion ya que el interesado estara constantemente realizando request del dato.
+Al implementar el principio, se puede llegar a tener un codigo un poco mas abierto a ampliacion, ya que solo sera otro sbucrito mas al servicio.
