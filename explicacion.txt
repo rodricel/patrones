@@ -1,8 +1,9 @@
-Diseï¿½o de patrones
+Diseño de patrones
 Don't call us, we call you
 concepto:
 Este principio trata eventos, mas especificamente, eventos provocados por alguna accion realizada en un objeto diferente.
 Lo que se trata con este principio es que el interesado (objeto que reaccionara), no deberia estar en constante revision del cambio.
+Sino que deberia recibir una notificacion cuando suceda el evento del cual el desea estar informado.
 De esta forma se crea una relacion subscritor-publicador.
 Patrones:
 El patron que nace a partir de este principio es el patron observer(ejemplo del cual se puede encontrar mas abajo).
